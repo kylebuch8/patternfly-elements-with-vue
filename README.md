@@ -1,4 +1,8 @@
-# patternfly-elements-with-vue
+# PatternFly Elements with Vue
+
+This app demonstrates how to integrate [PatternFly Elements](https://github.com/patternfly/patternfly-elements) with Vue.
+
+---------
 
 ## Project setup
 ```
