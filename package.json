@@ -12,6 +12,7 @@
     "@patternfly/pfe-card": "^1.0.0-prerelease.16",
     "@patternfly/pfe-cta": "^1.0.0-prerelease.16",
     "@patternfly/pfe-layouts": "^1.0.0-prerelease.16",
+    "@webcomponents/webcomponentsjs": "^2.2.10",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
@@ -20,6 +21,7 @@
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
     "babel-eslint": "^10.0.1",
+    "copy-webpack-plugin": "^5.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"

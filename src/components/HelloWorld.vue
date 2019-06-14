@@ -158,6 +158,12 @@ import "@patternfly/pfe-cta";
 import "@patternfly/pfe-accordion";
 import "@patternfly/pfe-layouts/pfe-layouts.min.css";
 
+// if you need to support IE11, use the path to the UMD version
+// import "@patternfly/pfe-card/pfe-card.umd.min.js";
+// import "@patternfly/pfe-cta/pfe-cta.umd.min.js";
+// import "@patternfly/pfe-accordion/pfe-accordion.umd.min.js";
+// import "@patternfly/pfe-layouts/pfe-layouts.min.css";
+
 export default {
   name: 'HelloWorld',
   props: {
