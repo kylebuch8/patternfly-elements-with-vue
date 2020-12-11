@@ -3,10 +3,10 @@
     <h1>PatternFly Elements with Vue</h1>
     <section>
       <div class="pfe-l-grid pfe-m-gutters pfe-m-all-12-col-on-xs pfe-m-all-6-col-on-sm pfe-m-all-4-col-on-lg">
-        <pfe-card pfe-color="lightest">
+        <pfe-card color="lightest" border>
           <img
             alt="From https://picsum.photos/"
-            pfe-overflow="left right top"
+            overflow="left right top"
             src="https://picsum.photos/id/1019/300/200"
           >
           <p>
@@ -27,10 +27,10 @@
             <a href="#">Learn more</a>
           </pfe-cta>
         </pfe-card>
-        <pfe-card pfe-color="lightest">
+        <pfe-card color="lightest" border>
           <img
             alt="From https://picsum.photos/"
-            pfe-overflow="left right top"
+            overflow="left right top"
             src="https://picsum.photos/id/1002/300/200"
           >
           <p>
@@ -51,10 +51,10 @@
             <a href="#">Learn more</a>
           </pfe-cta>
         </pfe-card>
-        <pfe-card pfe-color="lightest">
+        <pfe-card color="lightest" border>
           <img
             alt="From https://picsum.photos/"
-            pfe-overflow="left right top"
+            overflow="left right top"
             src="https://picsum.photos/id/1037/300/200"
           >
           <p>
@@ -156,7 +156,7 @@
 import "@patternfly/pfe-card";
 import "@patternfly/pfe-cta";
 import "@patternfly/pfe-accordion";
-import "@patternfly/pfe-layouts/pfe-layouts.min.css";
+import "@patternfly/pfe-styles/dist/pfe-layouts.min.css";
 
 // if you need to support IE11, use the path to the UMD version
 // import "@patternfly/pfe-card/pfe-card.umd.min.js";
